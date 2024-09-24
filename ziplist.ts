@@ -1,4 +1,4 @@
-const zipList = (arr1 : (string | number)[], arr2 : (string | number)[]) => {
+const zipList = (arr1 : (string | number)[], arr2 : (string | number)[]) : (string | number)[] => {
   const retVal : (string | number)[] = [];
 
   if (arr1.length !== arr2.length) {
@@ -14,7 +14,7 @@ const zipList = (arr1 : (string | number)[], arr2 : (string | number)[]) => {
 
 console.log(zipList(['a', 'b', 'c'], [1, 2, 3]));
 
-const zipListTheFunctionalWay = (arr1 : (string | number)[], arr2 : (string | number)[]) => {
+const zipListTheFunctionalWay = (arr1 : (string | number)[], arr2 : (string | number)[]) : (string | number)[] => {
   const retVal : (string | number)[] = [];
 
   if (arr1.length !== arr2.length) {
